@@ -27,7 +27,7 @@
         android:gravity="center"
         android:elegantTextHeight="false"
         android:letterSpacing="0.1"
-        android:textSize="26sp"
+        android:textSize="36dp"
         android:textStyle="bold" />
     <ImageView
         android:id="@+id/imageView3"
