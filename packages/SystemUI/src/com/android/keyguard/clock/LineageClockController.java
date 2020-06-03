@@ -15,17 +15,14 @@
  */
 package com.android.keyguard.clock;
 
-import android.app.WallpaperManager;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.graphics.Paint.Style;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextClock;
 
-import com.android.internal.colorextraction.ColorExtractor;
 import com.android.systemui.R;
 import com.android.systemui.colorextraction.SysuiColorExtractor;
 import com.android.systemui.plugins.ClockPlugin;
@@ -46,11 +43,6 @@ public class LineageClockController implements ClockPlugin {
      * LayoutInflater used to inflate custom clock views.
      */
     private final LayoutInflater mLayoutInflater;
-
-    /**
-     * Extracts accent color from wallpaper.
-     */
-    private final SysuiColorExtractor mColorExtractor;
 
     /**
      * Renders preview from clock view.
@@ -97,7 +89,7 @@ public class LineageClockController implements ClockPlugin {
 
     @Override
     public String getName() {
-        return "lineage";
+        return "lineageos";
     }
 
     @Override
