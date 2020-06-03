@@ -70,7 +70,6 @@ public class LineageClockController implements ClockPlugin {
             SysuiColorExtractor colorExtractor) {
         mResources = res;
         mLayoutInflater = inflater;
-        mColorExtractor = colorExtractor;
     }
 
     private void createViews() {
